@@ -1,0 +1,44 @@
+In your own terms, define the following terms:
+
+- What is HTTP?
+Hyper Text Transfer Protocol is how browsers and servers communicate. 
+- What is a URL?
+URLS connect to web browser known as the HTTPS, to the located servers
+in order for the consumer to see response to the Request when you use the http
+- What is DNS?
+DNS is the Domain Name Service. This is converts a website URL into an IP. This is then connect to Computer Cahce, Router, ISP, DNS servers. in order to amke it a IP.  
+- What is a query string? Server provides this information. Such as search terms, info from forms, and amount of pages that may change depending on response of javscript. 
+- What are two HTTP verbs and how are they different? GET and POST are http methods aso called HTTP verbs
+GET is diffrent from post becasue GET: requests without side effects. no server data will be changed. While POST: requests with side effects will change data on server.
+- What is an HTTP request?  this method is within the previouse spoke about GET. This is when you point you rbrowser toa  web page on a server, and the broswer makes a request to the server. 
+- What is an HTTP response? a Responses is in regard of the previouse method I spoke about POST. is the responses you get from the previouse Request. such as response Codes or content from the code within the Browser.  
+- What is an HTTP header? Give a couple examples of request and response headers you have seen.
+- What are the processes that happen when you type “http://somesite.com/some/page.html” into a browser? 
+The proccess would resolving an IP to the actual HTTP Request within the GET request to the server location. then continues to ISP, then dose  HTTP responses: Constructs an HTTP responses containing the request web page along with the appropriate headers.
+
+Part Two: Practice Tools
+1. Using curl, make a GET request to the icanhazdadjoke.com API to find all jokes 
+involving the word "priate" 
+
+"https://icahazdadjokes.com/search?term=pirate" 
+
+
+2.Use dig to find what the IP address is for icanhazdadjoke.com 
+dig icanhazdadjoke.com +short
+
+3. Make a simple web page and serve it using python3 -m http.server. Visit the page in a browser
+
+Build a very simple HTML form that uses the GET method (it can use the same page URL for the action) when the form is submitted.
+
+Add a field or two to the form and, after submitting it, explore in Chrome Developer tools how you can view the request and response headers.
+
+Edit the page to change the form type to POST, refresh in the browser and re-submit. Do you still see the field in the query string? Explore in Chrome how you can view the request 
+and response headers, as well as the form data.
+
+Part Four: Explore the URL API
+At times, it’s useful for your JavaScript to look at the URL of the browser window and change how the script works depending on parts of that (particularly the query string).
+
+[Read about the URL API](https://developer.mozilla.org/en-US/docs/Web/API/URL)
+
+Try some of the code examples in the Chrome Console so that you can get comfortable with the basic 
+methods and properties for instances of the URL class.

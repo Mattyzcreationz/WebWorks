@@ -1,0 +1,46 @@
+POST - Network inspections. 
+---------------------------
+POST: HEADER : Payload 
+Tab: Form Data 
+In the Payload Headers their is tab called Form Data.
+Form data provided two other tabs called view source and view URL-encoded.
+Results from Form Data organically is the formate ~ (name="" [element]): input.value ~ when action is taken.
+The responses that was given within the header Preview - Response is "Failed to load response data: No resource with given identifier found.
+
+
+POST : HEADER : Headers
+Tab: General : Request Headers
+Request URL: is the resource being requested
+Request Method: POST
+Status Code: is 405 Method Not Allowed - (405 is the HTTP status code number, which indicates that the server understands the request, but it cannot fulfill it due to the method used "POST"). 
+
+
+GET - Network inspections.
+--------------------------
+
+GET : HEADER : Payload
+Tab: Query String Paremeters
+In the Payload headers their is tab called Query String Paremeters 
+Query String Paremeters formate ~(name = "" [element]): input.value ~ when action is taken. 
+The responses that was given within the header Preview is providing me with a POST reaction of the HTML page due to me using GET inside the HTML page i am pulling information from. Response is providing me with my html code and the reason behind this The GET method returning ther HTMLK content of the page in response to teh GET request made by the browsers . This is the expected behaviour when using the GET method in a form submission... 
+
+
+GET: Header : Headers
+Tab: General : Request Headers
+Request URL: is the resource being requested
+Request Method: GET
+Status Code: 200 OK - (200 This HTTP status code number indicatesthat the request has succeeded. OK is the text version of the Status code number 200.) 
+
+
+Diffrence Between GET and POST Method in HTML. 
+
+PayLoad- GET Payload is Query String Paremeters and POST is Form Data. 
+The reason behind the GET and POST Method Payload is becauses the paramaters are sent diffrently from one another. GET is paramaters are
+sent via query string, while POST paramaters are sent via form data.
+
+Headers-Headers Request Method: POST - Status code: is 405 Method Not allowed this is due to method request not 
+being supported. and the server is configured to disallow that method becauses POST is attempting to send data to the server which is why the previous and Resource never showed up like GET method.(furthor explained while explaining the diffrences
+of GET) Furthor Information, could be regarding to Securit Concerns, application logic, Compliance Requriements.
+the diffrence of using GET - Status code: (Green Circle) 200 OK. Works perfectly becauses it is used to retrive data server without modifying anything. Also servers are more prone to accepting a GET method rather then POST method.
+this could also explained Preview - Resources provided the actual html and the code.   
+
